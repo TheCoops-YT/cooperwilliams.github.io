@@ -44,20 +44,16 @@ YOU GOT:
 		document.title = cookiecount + " cookies";
 	};
 	    
-        
-
-    </script>
-<button><a href="#" onClick="Save()">Save</a></button>
-<button><a href="#" onClick="Load()">Load</a></button>
-<button><a href="#" onClick="reset()">reset</a></button>
-<script>
-function Save() {
+        function Save() {
 	document.cookie = "num=cookies";
 };
 function Load() {
 	document.cookie.split(';').map(cookie => cookie.split('=')).reduce((accumulator;
 };
-	
-</script>
+
+    </script>
+<button><a href="#" onClick="Save()">Save</a></button>
+<button><a href="#" onClick="Load()">Load</a></button>
+<button><a href="#" onClick="reset()">reset</a></button>
 </body>
 </html>
