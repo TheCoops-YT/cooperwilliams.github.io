@@ -14,9 +14,10 @@
 		console.log("Stop trying to cheat you already have" + " " + cookiecount + " " + "cookies")
 	}
 	function devmode (){
+		var developermode = true
 	cookiecount = cookiecount + 9999999999999999999999999;
 		document.getElementById('text').value = cookiecount;
-		document.title = cookiecount + " cookies";
+		document.title = "devmode active";
 		devmode()
 	}
 	
