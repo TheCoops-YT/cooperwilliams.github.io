@@ -13,6 +13,11 @@
 	function givecookies() {
 		console.log("Stop trying to cheat you already have" + " " + cookiecount + " " + "cookies")
 	}
+	function devmode (){
+	cookiecount = cookiecount + 9999999999999999999999999;
+		document.getElementById('text').value = cookiecount;
+		document.title = cookiecount + " cookies";
+	}
 	
 var cookiecount = 0;
 	function reset() {
